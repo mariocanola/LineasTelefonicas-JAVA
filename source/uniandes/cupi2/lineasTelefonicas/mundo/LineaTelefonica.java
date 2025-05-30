@@ -46,6 +46,9 @@ public class LineaTelefonica
     public LineaTelefonica( )
     {
     	// TODO Parte2 PuntoA: Inicializar el número de llamadas, número de minutos y costo de llamadas en 0.
+    	numeroMinutos = 0;
+    	numeroLlamadas = 0;
+    	costoLlamadas = 0;
     }
 
     /**
@@ -54,6 +57,7 @@ public class LineaTelefonica
      */
     public double darCostoLlamadas( )
     {
+    	return costoLlamadas;
         // TODO Parte2 PuntoB: Completar el método según la documentación dada.
     }
 
@@ -63,6 +67,7 @@ public class LineaTelefonica
      */
     public int darNumeroLlamadas( )
     {
+    	return numeroLlamadas;
         // TODO Parte2 PuntoC: Completar el método según la documentación dada.
     }
 
@@ -72,6 +77,7 @@ public class LineaTelefonica
      */
     public int darNumeroMinutos( )
     {
+    	return numeroMinutos;
         // TODO Parte2 PuntoD: Completar el método según la documentación dada.
     }
 
