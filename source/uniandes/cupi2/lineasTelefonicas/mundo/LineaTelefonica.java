@@ -87,6 +87,11 @@ public class LineaTelefonica
 	 */
 	public void reiniciar( )
 	{
+		numeroLlamadas = 0;
+		
+		numeroMinutos = 0;
+		
+		costoLlamadas = 0.0;
         // TODO Parte2 PuntoE: Reiniciar el número de llamadas, número de minutos y costo de llamadas en 0.
 	}
 
