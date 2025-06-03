@@ -200,6 +200,7 @@ public class Empresa
     public void agregarLlamadaCelularLinea2( int pMinutos )
     {
         // TODO Parte3 PuntoM: Completar el m�todo seg�n la documentaci�n dada.
+    	linea2.agregarLlamadaCelular(pMinutos);
     }
 
     /**
@@ -210,6 +211,7 @@ public class Empresa
     public void agregarLlamadaCelularLinea3( int pMinutos )
     {
         // TODO Parte3 PuntoN: Completar el m�todo seg�n la documentaci�n dada.
+    	linea3.agregarLlamadaCelular(pMinutos);
     }
 
     /**
