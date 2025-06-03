@@ -88,12 +88,10 @@ public class Empresa
 	 */
 	public int darTotalNumeroLlamadas( )
 	{
-<<<<<<< HEAD
+
 		return linea1.darNumeroLlamadas() + linea2.darNumeroLlamadas() + linea3.darNumeroLlamadas();
-        // TODO Parte3 PuntoE: Completar el mÈtodo seg˙n la documentaciÛn dada.
-=======
         // TODO Parte3 PuntoE: Completar el mÔøΩtodo segÔøΩn la documentaciÔøΩn dada.
->>>>>>> feature/Visualiza_la_informaci√≥n_de_cada_l√≠nea
+
 	}
 
 	/**
@@ -102,12 +100,10 @@ public class Empresa
 	 */
 	public int darTotalMinutos( )
 	{
-<<<<<<< HEAD
+
 		return linea1.darNumeroMinutos() + linea2.darNumeroMinutos() + linea3.darNumeroMinutos();
-        // TODO Parte3 PuntoF: Completar el mÈtodo seg˙n la documentaciÛn dada.
-=======
         // TODO Parte3 PuntoF: Completar el mÔøΩtodo segÔøΩn la documentaciÔøΩn dada.
->>>>>>> feature/Visualiza_la_informaci√≥n_de_cada_l√≠nea
+
 	}
 
 	/**
@@ -116,12 +112,10 @@ public class Empresa
 	 */
 	public double darTotalCostoLlamadas( )
 	{        
-<<<<<<< HEAD
+
 		return linea1.darCostoLlamadas( ) + linea2.darCostoLlamadas( ) + linea3.darCostoLlamadas( );
-        // TODO Parte3 PuntoG: Completar el mÈtodo seg˙n la documentaciÛn dada.
-=======
         // TODO Parte3 PuntoG: Completar el mÔøΩtodo segÔøΩn la documentaciÔøΩn dada.
->>>>>>> feature/Visualiza_la_informaci√≥n_de_cada_l√≠nea
+
 	}
 	
 	/**
@@ -130,15 +124,13 @@ public class Empresa
 	 */
 	public double darCostoPromedioMinuto( )
 	{
-<<<<<<< HEAD
+
 		int totalMinutos = darTotalMinutos();
 	    if (totalMinutos == 0) {
 	        return 0.0;
 	    }
-        // TODO Parte3 PuntoH: Completar el mÈtodo seg˙n la documentaciÛn dada.
-=======
         // TODO Parte3 PuntoH: Completar el mÔøΩtodo segÔøΩn la documentaciÔøΩn dada.
->>>>>>> feature/Visualiza_la_informaci√≥n_de_cada_l√≠nea
+
 	}
 
 	/**
@@ -244,13 +236,10 @@ public class Empresa
     public void reiniciar( )
     {
         linea1.reiniciar( );
-<<<<<<< HEAD
         linea2.reiniciar( );
         linea3.reiniciar( );
-        // TODO Parte3 PuntoB: Completar el mÈtodo para reiniciar las lineas 2 y 3.
-=======
         // TODO Parte3 PuntoB: Completar el mÔøΩtodo para reiniciar las lineas 2 y 3.
->>>>>>> feature/Visualiza_la_informaci√≥n_de_cada_l√≠nea
+        // TODO Parte3 PuntoB: Completar el mÔøΩtodo para reiniciar las lineas 2 y 3.
     }
 
     //-----------------------------------------------------------------
