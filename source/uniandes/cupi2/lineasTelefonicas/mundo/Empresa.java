@@ -119,6 +119,7 @@ public class Empresa
 	    if (totalMinutos == 0) {
 	        return 0.0;
 	    }
+	    return darTotalCostoLlamadas() / totalMinutos;
         // TODO Parte3 PuntoH: Completar el método según la documentación dada.
 	}
 
