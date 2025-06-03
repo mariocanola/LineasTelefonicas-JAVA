@@ -45,7 +45,6 @@ public class LineaTelefonica
      */
     public LineaTelefonica( )
     {
-    	// TODO Parte2 PuntoA: Inicializar el número de llamadas, número de minutos y costo de llamadas en 0.
     	numeroMinutos = 0;
     	numeroLlamadas = 0;
     	costoLlamadas = 0;
@@ -58,7 +57,6 @@ public class LineaTelefonica
     public double darCostoLlamadas( )
     {
     	return costoLlamadas;
-        // TODO Parte2 PuntoB: Completar el método según la documentación dada.
     }
 
     /**
@@ -68,7 +66,6 @@ public class LineaTelefonica
     public int darNumeroLlamadas( )
     {
     	return numeroLlamadas;
-        // TODO Parte2 PuntoC: Completar el método según la documentación dada.
     }
 
     /**
@@ -78,7 +75,6 @@ public class LineaTelefonica
     public int darNumeroMinutos( )
     {
     	return numeroMinutos;
-        // TODO Parte2 PuntoD: Completar el método según la documentación dada.
     }
 
     /**
@@ -92,7 +88,6 @@ public class LineaTelefonica
 		numeroMinutos = 0;
 		
 		costoLlamadas = 0.0;
-        // TODO Parte2 PuntoE: Reiniciar el número de llamadas, número de minutos y costo de llamadas en 0.
 	}
 
 	/**
@@ -119,7 +114,12 @@ public class LineaTelefonica
      */
     public void agregarLlamadaLargaDistancia( int pMinutos )
     {
-        // TODO Parte2 PuntoF: Completar el método según la documentación dada.
+    	 
+        numeroLlamadas = numeroLlamadas + 1;
+        
+        numeroMinutos = numeroMinutos + pMinutos;
+        
+        costoLlamadas = costoLlamadas + ( pMinutos * 380);
     }
 
     /**
@@ -129,7 +129,12 @@ public class LineaTelefonica
      */
     public void agregarLlamadaCelular( int pMinutos )
     {
-        // TODO Parte2 PuntoG: Completar el método según la documentación dada.
+    	numeroLlamadas = numeroLlamadas + 1;
+        
+        numeroMinutos = numeroMinutos + pMinutos;
+        
+        costoLlamadas = costoLlamadas + ( pMinutos * 999);
+    	
     }
 
 }

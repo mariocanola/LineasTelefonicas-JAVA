@@ -48,8 +48,6 @@ public class Empresa
         linea1 = new LineaTelefonica( );
         linea2 = new LineaTelefonica( );
         linea3 = new LineaTelefonica( );
-        // TODO Parte3 PuntoA: Construir linea2 y linea3.
-
     }
 
     /**
@@ -58,7 +56,6 @@ public class Empresa
      */
     public LineaTelefonica darLinea1( )
     {
-        // TODO Parte3 PuntoB: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	return linea1;
     }
 
@@ -68,7 +65,6 @@ public class Empresa
      */
     public LineaTelefonica darLinea2( )
     {
-        // TODO Parte3 PuntoC: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	return linea2;
     }
 
@@ -78,7 +74,6 @@ public class Empresa
      */
     public LineaTelefonica darLinea3( )
     {
-        // TODO Parte3 PuntoD: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	return linea3;
     }
 
@@ -90,7 +85,6 @@ public class Empresa
 	{
 
 		return linea1.darNumeroLlamadas() + linea2.darNumeroLlamadas() + linea3.darNumeroLlamadas();
-        // TODO Parte3 PuntoE: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
 
 	}
 
@@ -102,7 +96,6 @@ public class Empresa
 	{
 
 		return linea1.darNumeroMinutos() + linea2.darNumeroMinutos() + linea3.darNumeroMinutos();
-        // TODO Parte3 PuntoF: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
 
 	}
 
@@ -112,10 +105,7 @@ public class Empresa
 	 */
 	public double darTotalCostoLlamadas( )
 	{        
-
-		return linea1.darCostoLlamadas( ) + linea2.darCostoLlamadas( ) + linea3.darCostoLlamadas( );
-        // TODO Parte3 PuntoG: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
-
+		return linea1.darCostoLlamadas( ) + linea2.darCostoLlamadas( ) + linea3.darCostoLlamadas( );    
 	}
 	
 	/**
@@ -129,13 +119,9 @@ public class Empresa
 	    if (totalMinutos == 0) {
 	        return 0.0;
 	    }
-<<<<<<< HEAD
-	    return darTotalCostoLlamadas() / totalMinutos;
-        // TODO Parte3 PuntoH: Completar el método según la documentación dada.
-=======
-        // TODO Parte3 PuntoH: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
 
->>>>>>> 937efe4f3495cebc23e85fc003564f0c4f5c4a39
+	    return darTotalCostoLlamadas() / totalMinutos;
+
 	}
 
 	/**
@@ -155,7 +141,6 @@ public class Empresa
      */
     public void agregarLlamadaLocalLinea2( int pMinutos )
     {
-        // TODO Parte3 PuntoI: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	linea2.agregarLlamadaLocal(pMinutos);
     }
 
@@ -166,7 +151,6 @@ public class Empresa
      */
     public void agregarLlamadaLocalLinea3( int pMinutos )
     {
-        // TODO Parte3 PuntoJ: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	linea3.agregarLlamadaLocal(pMinutos);
     }
 
@@ -187,7 +171,6 @@ public class Empresa
      */
     public void agregarLlamadaLargaDistanciaLinea2( int pMinutos )
     {
-        // TODO Parte3 PuntoK: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	linea2.agregarLlamadaLargaDistancia(pMinutos);
     }
 
@@ -198,7 +181,6 @@ public class Empresa
      */
     public void agregarLlamadaLargaDistanciaLinea3( int pMinutos )
     {
-        // TODO Parte3 PuntoL: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	linea3.agregarLlamadaLargaDistancia(pMinutos);
     }
 
@@ -219,7 +201,6 @@ public class Empresa
      */
     public void agregarLlamadaCelularLinea2( int pMinutos )
     {
-        // TODO Parte3 PuntoM: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	linea2.agregarLlamadaCelular(pMinutos);
     }
 
@@ -230,7 +211,6 @@ public class Empresa
      */
     public void agregarLlamadaCelularLinea3( int pMinutos )
     {
-        // TODO Parte3 PuntoN: Completar el mï¿½todo segï¿½n la documentaciï¿½n dada.
     	linea3.agregarLlamadaCelular(pMinutos);
     }
 
@@ -243,8 +223,7 @@ public class Empresa
         linea1.reiniciar( );
         linea2.reiniciar( );
         linea3.reiniciar( );
-        // TODO Parte3 PuntoB: Completar el mï¿½todo para reiniciar las lineas 2 y 3.
-        // TODO Parte3 PuntoB: Completar el mï¿½todo para reiniciar las lineas 2 y 3.
+        
     }
 
     //-----------------------------------------------------------------
